@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+  }
+  
+  .square {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    background-color: rgb(49, 184, 184);
+    width: 2023px;
+    height: 842px;
+  }
+  
+  .image {
+    position: absolute;
+    left: 588px;
+    top: 41px;
+    width: 1376px;
+    height: 927px;
+  }
+  
+  .con {
+    position: absolute;
+    font-size: 200px;
+    color: white;
+    width: 271px;
+    height: 209px;
+    left: 293px;
+    top: 106px;
+  }
+  
+  .view {
+    position: absolute;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(0, 103, 103, 0.7);
+    border-color: transparent;
+    font-size: 200px;
+    color: white;
+    left: 588px;
+    top: 104px;
+    width: 396px;
+    height: 212px;
+  }
+  
+  html,
+  body,
+  square,
+  image,
+  con,
+  view {
+    display: block
+  }
